@@ -27,3 +27,29 @@
 4. Prevent unauthorizered users from modifying or deleting any stored movie information
 5. Be acessible through a standard web brower such as Chrome
 6. Be designed to handle increasing numbers of movie records without impacting usability 
+
+## 3. Data and Storage Blueprint
+
+### Data Input
+
+MovieWatch will use manual entry as the primary method of data input. Users will enter movie information through forms provided by the application's user interface. The information entered by the users will include the movie title, genre, release year, and viewing status. Users will also be able to update any existing movie information or remove movies from their watchlist. After the user submits the information, the application will process the input and store the movie record within the database. 
+
+### Database or Storage
+
+MovieWatch will use a MySQL relational database to manage and store movie information. MySQL will be used since it can organize data into structured tables and support operations like inserting, updating, and deleting records. Using this database system will allow Moviewatch to maintain movie information and details even after the application is closed and provide dependable access to all stored records.  
+
+The primary movie table will contain fields like unique movie ID and viewing status. The movie ID will be used to distinctly identify each movie record. The title, genre, and release year will store basic information about each of the movies, while the viewing status will indicate whether the movie is "Watched" or "Want to Watch." The application will connect to the MySQL database through the Python and Flask backend so that information can be properly stored and retrieved whenever needed.
+
+## 4. Agile Product Backlog
+
+1. As a user, I want to add movies to my watchlist so that I can keep track of movies I want to watch
+2. As a user, I want to enter information such as genre and release year so that I can keep detailed information about each movie
+3. As a user, I want to view all movies in my watchlist so that I can easily see the movies that are saved
+4. As a user, I want to update information for an existing movie so that I can change or correct its information as needed
+5. As a user, I want to delete movies from my watchlist so that I can remove movies I longer want to watch
+6. As a user, I want to search for movies by gnenre or title so that I can quickly find a specific movie in my watchlist
+7. As a user, I want to filer movies by genre or viewing status so that I can find and organize moived based on my preference
+8. As a user, I want to label movies as "Watched" or "Want to Watch" so that I can keep track of my viewing progress
+9. As a user, I want my movie information to be stored in a database so that my watchlist information is available and saved when I return to the application
+10. As a user, I want my saved movie information to be retrieved from the database when I access my watchlist so that I can view my previously saved movies 
+    
