@@ -43,12 +43,12 @@ The primary movie table will contain fields like a unique movie ID and viewing s
 ## 4. Agile Product Backlog
 
 1. As a user, I want to add movies to my watchlist so that I can keep track of movies I want to watch
-2. As a user, I want to enter information such as genre and release year so that I can keep detailed information about each movie
+2. As a user, I want to enter information such as movie title, genre,  and release year so that I can keep detailed information about each movie
 3. As a user, I want to view all movies in my watchlist so that I can easily see the movies that are saved
 4. As a user, I want to update information for an existing movie so that I can change or correct its information as needed
 5. As a user, I want to delete movies from my watchlist so that I can remove movies I no longer want to watch
 6. As a user, I want to search for movies by genre or title so that I can quickly find a specific movie in my watchlist
-7. As a user, I want to filter movies by genre or viewing status so that I can find and organize moives based on my preferences
+7. As a user, I want to filter movies by genre or viewing status so that I can find and organize movies based on my preferences
 8. As a user, I want to label movies as "Watched" or "Want to Watch" so that I can keep track of my viewing progress
 9. As a user, I want my movie information to be stored in a database so that my watchlist information is available and saved when I return to the application
 10. As a user, I want my saved movie information to be retrieved from the database when I access my watchlist so that I can view my previously saved movies 
